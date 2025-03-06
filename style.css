@@ -174,3 +174,18 @@ h4{
     background-color:white;
     border-radius: 10px;
 }
+#meatPrice{
+    text-align: center;
+}
+#price{
+    background-color: #0ae368;
+    display: block;
+    font-weight: 300;
+    font-size: large;
+}
+#muttonPrice{
+    text-align: center;
+}
+#beefPrice{
+    text-align: center;
+}

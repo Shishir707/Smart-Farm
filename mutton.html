@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="muttonPrice">
-    <script src="mutton.html"></script>
+    <img src="mutton.jpg" alt="mutton">
     <div class="sample">
-        <img src="mutton.jpg" alt="mutton">
-        <p> - Per KG TK.700</p>
-        <p>You have to pay:</p>
-        <h3 id="priceM"></h3>
+        <label for="kg">What quantity do you want to buy??</label>
+        <input type="number" id="kg"><br><br>
+        <button onclick="checkAmount()">Price</button>
+        <p id="price"></p>
         <a href="service.html"><button>Back</button></a>
     </div>
     <script src="main.js"></script>

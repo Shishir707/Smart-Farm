@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="meatPrice">
+    <img src="meat.jpg" alt="meat 1">
     <div class="sample">
-        <img src="meat.jpg" alt="meat 1">
-        <p> - Per KG TK.500</p>
-        <p>You have to pay:</p>
-        <h3 id="priceM"></h3>
+        <label for="kg">What quantity do you want to buy??</label>
+        <input type="number" id="kg"><br><br>
+        <button onclick="checkAmount()">Price</button>
+        <p id="price"></p>
         <a href="service.html"><button>Back</button></a>
 
     </div>
